@@ -51,26 +51,33 @@ Note: filename is optional and is discussed above in the "Where will I find my w
 Once running, the program will verbosely prompt the user for input in order to acquire the desired output. The following prompts for user input are currently used (note:some prompts will not be required depending on options chosen):
 
 1) Please enter the number of wordlists you would like to combine:
+
 The input allowed here is either 1, 2, or 3. More than 3 word lists is not supported at this time.
 
 2) Please provide the absolute path to the first wordlist:
 3) Please provide the absolute path to the second wordlist:
 4) Please provide the absolute path to the third wordlist:
+
 A user will only be prompted to enter a path for the amount of wordlists they selected from question #1. As stated in the prompts themselves, type in the absolute path!
 
 5) Would you like to concatenate numeric values to the word(s), Y/N?
+
 A user can elect to concatenate a range of numbers to all generated word combinations. An answer of 'y' or 'n' is required to proceed.
 
 6) Where would you like to concatenate the numbers? Please enter 'beginning' or 'end':
+
 This question determines where the numbers should be concatenated. Should they be a prefix or a suffix? The input must match 'beginning' or 'end' exactly. This prompt will not show if a user has elected to not concatenate numbers to the words.
 
 7) Please enter the starting value of the numeric range:
+
 This prompt requires an integer as input. The number entered here will be the first number concatenated to each combination of words. This is also not asked if the user entered 'n' for question #5.
 
 8) Please enter the ending value of the numeric range:
+
 This prompt requires an integer as input. The number entered here will be the last number concatenated to each combination of words. This is not asked if the user entered 'n' for question #5.
 
 9) Does the pin need to contain preceeding zeroes, Y/N? Example: 001, 002, 003:
+
 The required input is either 'y' or 'n'. The amount of zeroes that preceed the number is directly correlated to the ending range value in question #8. The above output may not accurately represent the options you have chosen.
 
 Once all questions have been answered, a line of text saying "Generating your wordlist now..." is printed to the screen. After the wordlist has been completed, the program will let you know the wordlist has been generated and the program will exit. 
