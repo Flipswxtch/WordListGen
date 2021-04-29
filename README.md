@@ -1,5 +1,6 @@
 # WordListGen
 General Purpose:
+
 WordListGen is a program designed to assist a user in creating wordlists that may
 be used with Hashcat - the Kali-Linux Password Cracking Utility. A user user can choose 
 to combine up to three lists of words together to form a master wordlist which will have all potential combinations of those words. A numeric value
@@ -21,12 +22,15 @@ word list
 Note: In the above example, the whole string of "word list", including the space, will be used.
 
 Where will I find my word list?
+
 The program will save the output to a file; a user can elect to either pass a custom filename as an argument with the command, for instance "python3 ./WordListGen.py outfile.txt" where outfile.txt will be the resulting file, or the user can elect to pass no arguments in which case a default file by the name of "wordlist.txt" will be produced. 
 
 Downloading the program:
+
 This can be completed by using the "git clone" command along with the provided URL or the Download zip function, both of which are to be found through the green "download Code" button on the repository. 
 
   Using git clone:
+  
     git clone https://github.com/Flipswxtch/WordListGen.git
     cd WordListGen
     cd Program
@@ -34,6 +38,7 @@ This can be completed by using the "git clone" command along with the provided U
     The program is now ready to be used.
 
   Using Download Zip:
+  
     Download the zip file selecting the desired location.
     Navigate to the directory in the terminal where the zip file was saved.
     unzip WordListGen-main.zip
@@ -43,6 +48,7 @@ This can be completed by using the "git clone" command along with the provided U
     The program is now ready to be used.
 
 How to use the program:
+
 The program can be used from the terminal with the following command: 
 python3 ./WordListGen.py (filename)
 
